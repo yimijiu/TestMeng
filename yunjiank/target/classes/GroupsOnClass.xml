@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="classrooms">
+    <test name="runnable">
+        <classes>
+            <class name="com.yunjiank.TestNG.groups.GroupsOnClass1"/>
+            <class name="com.yunjiank.TestNG.groups.GroupsOnClass2"/>
+            <class name="com.yunjiank.TestNG.groups.GroupsOnClass3"/>
+        </classes>
+    </test>
+
+    <test name="ransom">
+        <groups>
+            <run>
+                <include name="stu"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.yunjiank.TestNG.groups.GroupsOnClass1"/>
+            <class name="com.yunjiank.TestNG.groups.GroupsOnClass2"/>
+            <class name="com.yunjiank.TestNG.groups.GroupsOnClass3"/>
+        </classes>
+    </test>
+
+</suite>
