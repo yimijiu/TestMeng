@@ -1,4 +1,4 @@
-package com.yunjiank.TestNG;
+package com.yunjiank.TestNG.suite;
 
 import org.testng.annotations.*;
 
