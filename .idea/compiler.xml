@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="chapter" />
         <module name="yunjiank" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="chapter" target="1.5" />
       <module name="yunjiank" target="1.5" />
     </bytecodeTargetLevel>
   </component>
