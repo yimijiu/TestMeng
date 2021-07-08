@@ -1,0 +1,12 @@
+[
+  {
+    "description": "这是第一个mock程序",
+    "request":{
+        "uri": "/demo"
+
+},
+    "response": {
+      "text":"mock bu tai hao yong "
+    }
+  }
+]
