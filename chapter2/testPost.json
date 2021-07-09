@@ -7,8 +7,7 @@
     },
     "response": {
       "headers": {
-        "Content-Type": "text/html;charset=gbk",
-
+        "Content-Type": "text/html;charset=gbk"
       },
       "text": "这是mock不带参数的post请求"
     }
