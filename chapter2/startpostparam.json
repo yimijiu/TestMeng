@@ -1,0 +1,20 @@
+[
+  {
+    "description": "post请求带参数",
+
+    "request" :{
+      "uri": "/postparam",
+      "method": "post",
+      "forms": {
+        "name": "menghaipeng",
+        "age": "19"
+      }
+},
+    "response": {
+      "headers": {
+      "Content-Type": "text/html;charset=gbk"
+    },
+      "text": "这是带参数的post"
+  }
+  }
+]

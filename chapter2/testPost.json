@@ -2,12 +2,13 @@
   {
     "description": "这是第一个mock 的post请求",
     "request": {
-      "uri": "/post1"
+      "uri": "/post1",
+      "method": "post"
     },
     "response": {
       "headers": {
         "Content-Type": "text/html;charset=gbk",
-        "method": "post"
+
       },
       "text": "这是mock不带参数的post请求"
     }
