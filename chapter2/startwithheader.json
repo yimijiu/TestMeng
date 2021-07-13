@@ -1,0 +1,22 @@
+[
+  {
+    "description": "带header的请求",
+    "request": {
+      "uri": "/startWithHeader",
+      "method": "post",
+      "json": {
+        "name": "wangwu",
+        "sex": "man"
+      },
+      "headers": {
+        "content-type": "application/json;charset=gbk"
+      }
+    },
+    "response": {
+      "json": {
+        "wangwu": "sucess",
+        "status": 1
+      }
+    }
+  }
+]

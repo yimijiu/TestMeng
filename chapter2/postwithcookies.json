@@ -1,0 +1,26 @@
+[
+  {
+    "description": "这是带cookies的post",
+    "request":{
+      "uri": "/postwithcook",
+      "method": "post",
+      "cookies" :{
+      "login": "true"
+      },
+      "json": {
+        "name": "menghaipeng",
+        "age": "18"
+      }
+    },
+    "response": {
+      "headers":{
+      "Content-Type": "text/html;charset=gbk"
+     },
+      "status": 200,
+      "json": {
+        "menghaipeng": "success",
+        "status": "1"
+      }
+    }
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "description": "这是重定向",
+    "request": {
+      "uri": "/redirection",
+      "method": "post"
+
+    },
+    "redirectTo" : "http://console.dev.yocaigs.com:27331/pages/index.html#/login"
+  },
+  {
+    "description": "内部重定向",
+    "request": {
+      "uri": "/inredirection",
+      "method": "get"
+    },
+    "redirectTo": "/hahaha"
+  },
+  {
+    "description": "定位到的页面",
+    "request": {
+      "uri": "/hahaha",
+      "method": "get"
+
+    },
+    "response": {
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      },
+      "text": "重定向到了"
+    }
+  }
+
+]
